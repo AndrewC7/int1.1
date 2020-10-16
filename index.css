@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1d1818;
+    line-height: 1.5;
+}
+
+nav, main > section {
+    overflow: auto;
+}
+
+main > section, main > footer {
+    min-height: 100vh;
+}
+
+/* Style the nav bar */
+#nav {
+    justify-content: center;
+    color: cornsilk;
+    display: flex;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav h1, ul {
+    margin: 0
+}
+
+nav a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    padding: 1em;
+    color: cornsilk;
+    text-shadow: 0 0 20px #000000;
+
+}
+
+nav ul a:hover {
+    color: pink;
+}
+
+#home {
+    background-color: lightslategray;
+    background-image: url(images/header-background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: cornsilk;
+}
+
+#home > div {
+    position: relative;
+   
+}
+
+#home h2, #home p {
+    margin: 0;
+    text-shadow: 0 0 20px #000000;
+    padding-left: 50px;
+}
+
+#about {
+    background-color: #26323f;
+    display: flex;
+    color: cornsilk;
+}
+
+#about > div {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+#about h2, #about p {
+    margin: 0 0 1rem 0;
+}
+
+#about h2 {
+    font-size: 2em;
+}
+
+#about h4 {
+    text-align: center;
+}
+#about > div > div:nth-child(1) {
+    flex: 3;
+    margin: 0 2em 0 0;
+}
+
+#about > div > div:nth-child(2) {
+    flex: 2;
+}
+
+#about > div img {
+    width: 100%;
+    box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+#skills {
+    background-color: #26323f;
+    margin-top: -200px;
+}
+
+#skills > h2 {
+    margin: 1em;
+    font-size: 2em;
+    text-align: center;
+    color: cornsilk;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#skills img {
+    width: 75px;
+    height: 75px;
+}
+
+#skills p {
+    color: cornsilk;
+    text-align: center;
+}
+
+
+/* Create some cards in this section */
+#projects {
+    margin-top: -500px;
+    background-color: #26323f;
+}
+
+#projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#projects > h2 {
+    margin: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: cornsilk;
+}
+
+.card {
+    width: 400px;
+    margin: 1em;
+    background-color: #eee;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 2em;
+}
+
+.card h3, .card p {
+    margin: 1rem;
+}
+
+#games {
+    background-color: lightslategray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#games > div {
+    background-color:rgba(255, 255, 255, 0.65);
+    padding: 2em;
+    width: 75%;
+    max-width: 700px;
+}
+
+#games  h2 {
+    font-size: 4em;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#contact {
+    background-color: lightslategray;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact > form {
+    display: flex;
+}
+
+#contact > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 1em 0;
+}
+
+label span {
+    margin: 1em 0;
+}
+
+input, textarea {
+    border: 1px solid #000;
+    padding: 0.5em;
+    margin: 0 2em 0 0;
+    width: 20em;
+    font-size: 1em;
+}
+
+textarea {
+    height: 9em;
+    margin: 0 0 0 0;
+}
+
+form button {
+    width: auto;
+    font-size: 1em;
+    margin: 1em 0;
+    align-self: flex-end;
+    padding: 0.5em 1em;
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+}
